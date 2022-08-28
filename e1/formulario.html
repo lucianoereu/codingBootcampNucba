@@ -11,29 +11,29 @@
 <div>
     <form action="" method="post">
         <label for="name">Nombre:</label>
-        <input type="text" id="name" name="nombre">
+        <input type="text" id="name" name="nombre" required>
         <br>
         <br>
         <label for="lastName">Apellido:</label>
-        <input type="text" id="lastName" name="apellido">
+        <input type="text" id="lastName" name="apellido" required>
         <br>
         <br>
         <p>Modalidad de cursada: 
-                <input type="radio" id="onDemand" value="ONDEMAND">
+                <input type="radio" id="onDemand" value="ONDEMAND" required>
                 <label for="onDemand">On-Demand</label>
-                <input type="radio" id="live" value="LIVE">
+                <input type="radio" id="live" value="LIVE" required>
                 <label for="live">En vivo</label>
         </p>
         <br>
         <label for="correo">Correo:</label>
-        <input type="email" name="CORREO" id="correo">
+        <input type="email" name="CORREO" id="correo"required>
         <br>
         <br>
         <input type="checkbox" name="INFO" id="info">
         <label for="info">Deseo recibir informacion sobre nuevos posteos en la platforma de Nucba.</label>
         <br>
         <br>
-        <input type="checkbox" name="TERMINOS" id="terminos">
+        <input type="checkbox" name="TERMINOS" id="terminos" required>
         <label for="terminos">Declaro que lei los terminos y condiciones y estoy listo para convertirme en desarrollador web Full Stack.</label>    
         <br>
         <br>
